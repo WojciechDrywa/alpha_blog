@@ -1,0 +1,15 @@
+{
+    "dependencies": {
+        "bootstrap": "^5.2.0-beta1",
+        "@hotwired/stimulus": "^3.0.1",
+        "@hotwired/turbo-rails": "^7.1.0",
+        "@popperjs/core": "^2.11.0",
+        "jquery": "^3.6.0",
+        "esbuild": "^0.14.5",
+        "popper.js": "^1.16.1",
+        "sass": "^1.52.2"
+    },
+    "scripts": {
+        "build:css": "sass ./app/assets/stylesheets/application.sass.scss ./app/assets/builds/application.css --no-source-map"
+    }
+}
