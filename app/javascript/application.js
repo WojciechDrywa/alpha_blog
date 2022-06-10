@@ -5,9 +5,8 @@ import * as bootstrap from "bootstrap"
 
 let popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
 let popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
-    return new bootstrap.Popover(popoverTriggerEl)
-})
-
-//= require jquery4
-//= require popper
-//= require bootstrap-sprockets
+        return new bootstrap.Popover(popoverTriggerEl)
+    })
+    //= require jquery4
+    //= require popper
+    //= require bootstrap-sprockets
